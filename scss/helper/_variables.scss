@@ -1,0 +1,64 @@
+// variable color
+$color-black-0: #333333; // default
+$color-black-1: #242424;
+$color-white-0: #fff; //default
+$color-white-cream: #f3f3f3;
+$color-black-light: #6c6466;
+$color-blue: #0276b3;
+$color-blue-1: #2861a4;
+$color-blue-2: #204d74;
+$color-blue-dark: #102b4e;
+$color-blue-light: #37a9cf;
+$color-gray-dark: #545352;
+$color-gray: #a7a7a7;
+$color-red: #d92e14;
+$color-trans: transparent;
+
+// variable font-size
+$fs-0: 16px; //default
+$fs-1: 14px;
+$fs-2: 20px;
+$fs-3: 24px;
+//Còn 1 font-size: 36px;
+$fs-4: 40px;
+
+//variable margin
+$mg-0: 2px;
+$mg-1: 10px;
+$mg-2: 25px;
+
+//variable border-radius
+$border-radius: 2px;
+
+//variable padding
+$pd-0: 5px; //default
+$pd-1: 10px;
+$pd-2: 15px;
+$pd-3: 20px;
+
+//variable line-height
+$line-height-0: 1.43; //default
+
+//variable font-weight
+$fw-normal: normal;
+$fw-bold-0: 600;
+$fw-bold-1: 700;
+$fw-bold: bold;
+
+//break points
+$breakpoints: (
+    "extra-large": 1200px,
+    "ipad-horizontal": 1024px,
+    "large": 992px,
+    "medium": 768px,
+    "small": 576px,
+);
+/*
+max-width: 320px (điện thoại di động, hiển thị chiều dọc)
+max-width: 480px (điện thoại di động, hiển thị chiều ngang)
+max-width: 600px (máy tính bảng, hiển thị chiều dọc)
+max-width: 800px (máy tính bảng, hiển thị chiều ngang)
+max-width: 768px (máy tính bảng loại to, hiển thị chiều dọc)
+max-width: 1024px (máy tính bảng loại to, hiển thị chiều ngang)
+min-width: 1025px (từ size này trở lên là danh cho desktop thông thường).
+**/

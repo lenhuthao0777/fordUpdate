@@ -1,0 +1,94 @@
+.fordCarousel {
+    margin-top: 120px;
+    .fordCarousel__content {
+        .item {
+            position: relative;
+            .img {
+                .img1 {
+                    display: block;
+                }
+                .img2 {
+                    display: none;
+                }
+            }
+            .text {
+                position: absolute;
+                top: 5%;
+                left: 0;
+                padding: 0 45px;
+                h1 {
+                    font-size: 3rem;
+                    color: #fff;
+                }
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    margin-top: 20px;
+                    p {
+                        font-size: 16px;
+                        color: $color-white-0;
+                        padding-right: 20px;
+                    }
+                    span {
+                        width: 25px;
+                        height: 25px;
+                        i {
+                            font-size: 15px;
+                            color: $color-white-0;
+                        }
+                        &:hover {
+                            i {
+                                background-color: $color-white-0;
+                                color: $color-gray-dark;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responesive("large") {
+    .fordCarousel {
+        .fordCarousel__content {
+            .item {
+                .img {
+                    .img1 {
+                        display: none;
+                    }
+                    .img2 {
+                        width: 100%;
+                        display: block;
+                    }
+                }
+                .text {
+                    a {
+                        h1 {
+                            font-size: 2.4rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responesive("medium") {
+    .fordCarousel {
+        margin-top: 80px;
+        .fordCarousel__content {
+            .item {
+                .text {
+                    a {
+                        text-align: center;
+                        h1 {
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
